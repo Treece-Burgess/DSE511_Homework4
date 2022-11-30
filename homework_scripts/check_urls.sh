@@ -6,7 +6,7 @@ while read line; do
     if wget -q --method=HEAD $line; then
         echo "EXISTS ${line}"
     else
-        echo "Does not exist"
+        continue
     fi
 
 done < ${file}
