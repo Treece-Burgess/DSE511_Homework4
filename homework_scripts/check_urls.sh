@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#file="urls.txt"
 file=$1
 
 while read line; do
